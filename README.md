@@ -122,6 +122,10 @@ You don't need an image though. The default background color is black, but you c
 
 example: `background_color_class = "bg-blue"` or `background_color_class = "bg-gray"`
 
+The default cover backdrop for the featured image is `bg-black-60`, but can be changed using the `cover_dimming_class`.  Choose a color dimming class for the page or size header from any on the [Tachyons](https://tachyons.io/docs/themes/skins/) library site, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
+
+example: `cover_dimming_class = "bg-black-20"` or `cover_dimming_class = "bg-white-40"`
+
 ### Activate the contact form
 
 This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
